@@ -10,6 +10,7 @@
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
     "@apollo/react-ssr": "^4.0.0",
+    "@redq/reuse-modal": "^1.2.4",
     "@styled-system/theme-get": "^5.1.2",
     "apollo-client": "^2.6.10",
     "graphql": "^15.3.0",
@@ -17,8 +18,12 @@
     "next": "9.5.3",
     "next-apollo": "^5.0.0",
     "react": "16.13.1",
+    "react-content-loader": "^5.1.2",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "16.13.1",
     "react-intl": "^5.8.4",
+    "react-stickynode": "^3.0.3",
+    "resize-observer-polyfill": "^1.5.1",
     "styled-components": "^5.2.0",
     "styled-system": "^5.1.5",
     "stylis-plugin-rtl": "^2.0.0",
@@ -26,6 +31,8 @@
   },
   "devDependencies": {
     "@types/node": "^14.11.2",
-    "@types/react": "^16.9.50"
+    "@types/react": "^16.9.50",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-svgo": "^8.0.0"
   }
 }
