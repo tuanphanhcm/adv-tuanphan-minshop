@@ -9,10 +9,9 @@ const IndexPage: React.FC<{}> = () => {
         <meta name="robots" content="TuanPhan-Minshop" />
       </Head>
       <SidebarCategory
-        type={""}
+        type={"grocery"}
         deviceType={{ desktop: true, mobile: "", tablet: "" }}
       />
-      <div>Hello next js</div>
       <Footer />
     </>
   );

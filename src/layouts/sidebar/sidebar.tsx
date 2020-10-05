@@ -39,6 +39,9 @@ const SidebarCategory: React.FC<SidebarCategoryProps> = ({
   const { data, loading } = useQuery(GET_CATEGORIES, {
     variables: { type },
   });
+
+  console.log("Data: ", data);
+
   const { pathname, query } = router;
   const selectedQueries = query.category;
 
