@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../layouts/footer";
 
 const IndexPage: React.FC<{}> = () => {
   return (
@@ -7,6 +8,7 @@ const IndexPage: React.FC<{}> = () => {
         <meta name="robots" content="TuanPhan-Minshop" />
       </Head>
       <div>Hello next js</div>
+      <Footer />
     </>
   );
 };
